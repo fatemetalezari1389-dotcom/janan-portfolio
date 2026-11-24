@@ -91,8 +91,6 @@ const translations = {
     contactTitle: 'Have an idea?<br><span>Let\'s connect.</span>',
     contactIntro:
       "I'm open to meaningful conversations, learning opportunities and creative collaborations.",
-    privacyNote:
-      "Your contact details are visible to everyone visiting this public website.",
     formTitle: "Send a message",
     formIntro: "Tell me a little about what's on your mind.",
     formName: "Your name",
@@ -121,7 +119,7 @@ const translations = {
     heroKicker: "سلام، من جانان طالع زاری هستم",
     heroTitle: 'ساخت تجربه‌های<br><span>دیجیتال</span><br>با کمک کدنویسی.',
     heroDescription:
-      "برنامه‌نویجی کنجکاو که در دنیای طراحی وب، نرم‌افزار و هوش مصنوعی قدم می‌زند و ایده‌ها را به تجربه‌های دیجیتال کاربردی تبدیل می‌کند.",
+      "برنامه‌نویسی کنجکاو که در دنیای طراحی وب، نرم‌افزار و هوش مصنوعی قدم می‌زند و ایده‌ها را به تجربه‌های دیجیتال کاربردی تبدیل می‌کند.",
     heroWork: "مشاهده پروژه‌ها",
     heroAbout: "کمی درباره من",
     heroStatus: "در حال یادگیری، ساختن و پیشرفت.",
@@ -196,8 +194,6 @@ const translations = {
     contactTitle: 'ایده‌ای داری؟<br><span>با هم در ارتباط باشیم.</span>',
     contactIntro:
       "از گفتگوهای مفید، فرصت‌های یادگیری و همکاری‌های خلاقانه استقبال می‌کنم.",
-    privacyNote:
-      "اطلاعات تماس شما در این سایت عمومی برای تمام بازدیدکنندگان قابل مشاهده است.",
     formTitle: "ارسال پیام",
     formIntro: "کمی درباره موضوعی که در ذهن داری بنویس.",
     formName: "نام شما",
