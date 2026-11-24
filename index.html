@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Janan Talezari — Programmer, web developer and creative learner.">
+  <meta name="theme-color" content="#080d1b">
+  <title>Janan Talezari | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Janan home">janan<span>.tlz</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" data-i18n="navHome">Home</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#skills" data-i18n="navSkills">Skills</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#journey" data-i18n="navJourney">Journey</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="language-toggle" id="languageToggle" type="button">فا</button>
+      <a class="header-cta" href="#contact" data-i18n="navCta">Let's talk <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          <span data-i18n="eyebrow">THINK · CREATE · INNOVATE</span>
+        </div>
+
+        <p class="hero-kicker" data-i18n="heroKicker">Hello, I'm Janan Talezari</p>
+
+        <h1 data-i18n="heroTitle">
+          Building digital<br>
+          <span>experiences</span><br>
+          through code.
+        </h1>
+
+        <p class="hero-description" data-i18n="heroDescription">
+          A curious programmer exploring web development, software and AI — turning ideas into useful digital experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects" data-i18n="heroWork">
+            Explore my work <span>↗</span>
+          </a>
+          <a class="button button-ghost" href="#about" data-i18n="heroAbout">
+            A little about me
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span class="availability-dot"></span>
+          <span data-i18n="heroStatus">Currently learning, building and improving.</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="hero-glow"></div>
+
+        <div class="code-card">
+          <div class="code-card-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>janan.py</span>
+            <span class="code-lock">⌘</span>
+          </div>
+
+          <div class="code-lines">
+            <p><span class="code-purple">class</span> <span class="code-blue">CreativeMind</span>:</p>
+            <p class="indent"><span class="code-purple">def</span> <span class="code-yellow">build</span>(self):</p>
+            <p class="indent2">ideas = <span class="code-green">"curiosity"</span></p>
+            <p class="indent2">skills = [<span class="code-green">"Python"</span>,</p>
+            <p class="indent3"><span class="code-green">"Web"</span>, <span class="code-green">"AI"</span>]</p>
+            <p class="indent2"><span class="code-purple">return</span> ideas + skills</p>
+            <p class="code-cursor">▍</p>
+          </div>
+
+          <div class="code-card-footer">
+            <span><b></b> learning_mode = True</span>
+            <span>01 / 05</span>
+          </div>
+        </div>
+
+        <div class="floating-chip chip-top">
+          ✦ <span data-i18n="chipCreative">Creative thinking</span>
+        </div>
+
+        <div class="floating-chip chip-bottom">
+          <span class="chip-icon">&lt;/&gt;</span>
+          <span data-i18n="chipCode">Code with purpose</span>
+        </div>
+
+        <div class="hero-index">PORTFOLIO / 2026</div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span></span>
+        <small data-i18n="scroll">SCROLL TO EXPLORE</small>
+      </a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / <span data-i18n="aboutLabel">ABOUT ME</span></p>
+        <h2 data-i18n="aboutTitle">Curiosity is where<br><span>everything starts.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="about-card-top">
+            <span>JT</span>
+            <span class="card-cross">✳</span>
+          </div>
+
+          <div class="avatar-mark">&lt;/&gt;</div>
+
+          <p class="avatar-name">JANAN TALEZARI</p>
+          <p class="avatar-role" data-i18n="avatarRole">PROGRAMMER · CREATIVE LEARNER</p>
+
+          <div class="about-card-bottom">
+            <span>BASED IN</span>
+            <span data-i18n="based">Digital world</span>
+          </div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="lead" data-i18n="aboutLead">
+            I'm a student and aspiring developer who enjoys understanding how things work — then building something of my own.
+          </p>
+
+          <p data-i18n="aboutP1">
+            My journey started with Python. Since then, I've been exploring web development, artificial intelligence and the creative side of technology.
+          </p>
+
+          <p data-i18n="aboutP2">
+            I learn best by making real projects, testing ideas and improving them step by step. I'm focused on building a strong foundation and creating work that is genuinely useful.
+          </p>
+
+          <div class="focus-list">
+            <div><span>01</span><b data-i18n="focus1">Software development</b></div>
+            <div><span>02</span><b data-i18n="focus2">Web experiences</b></div>
+            <div><span>03</span><b data-i18n="focus3">Artificial intelligence</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-index">02 / <span data-i18n="skillsLabel">SKILLS & TOOLS</span></p>
+        <h2 data-i18n="skillsTitle">Learning today.<br><span>Building tomorrow.</span></h2>
+        <p class="section-intro" data-i18n="skillsIntro">
+          A transparent look at the tools and areas I'm exploring.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-symbol">Py</span>
+            <span class="skill-number">01</span>
+          </div>
+          <h3 data-i18n="skillProgramming">Programming</h3>
+          <p data-i18n="skillProgrammingDesc">Building logic, problem-solving skills and applications.</p>
+          <div class="skill-tags">
+            <span>Python · Intermediate</span>
+            <span>Problem Solving · Growing</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-symbol">&lt;/&gt;</span>
+            <span class="skill-number">02</span>
+          </div>
+          <h3 data-i18n="skillWeb">Web development</h3>
+          <p data-i18n="skillWebDesc">Learning to create responsive and accessible websites.</p>
+          <div class="skill-tags">
+            <span>HTML · Learning</span>
+            <span>CSS · Learning</span>
+            <span>JavaScript · Learning</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-symbol">✳</span>
+            <span class="skill-number">03</span>
+          </div>
+          <h3 data-i18n="skillAI">AI & creative tools</h3>
+          <p data-i18n="skillAIDesc">Using modern tools to research, learn and prototype ideas.</p>
+          <div class="skill-tags">
+            <span>ChatGPT</span>
+            <span>Claude</span>
+            <span>Gemini</span>
+            <span>Cursor</span>
+            <span>GitHub Copilot</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-card-head">
+            <span class="skill-symbol">◈</span>
+            <span class="skill-number">04</span>
+          </div>
+          <h3 data-i18n="skillDesign">Design</h3>
+          <p data-i18n="skillDesignDesc">Exploring visual communication and user-centered design.</p>
+          <div class="skill-tags">
+            <span>Graphic design · Learning</span>
+            <span>UI / UX · Learning</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="skills-footnote">
+        <span>✦</span>
+        <span data-i18n="skillsNote">Skills grow through practice — this page grows with them.</span>
+      </p>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-index">03 / <span data-i18n="projectsLabel">SELECTED PROJECTS</span></p>
+        <h2 data-i18n="projectsTitle">Ideas in progress.<br><span>Made with intention.</span></h2>
+        <p class="section-intro" data-i18n="projectsIntro">
+          A few things I'm building or planning to build. More will be added as they become ready.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-art plan-art">
+            <div class="mini-app">
+              <div class="mini-sidebar">
+                <b>PLAN.</b>
+                <i></i><i></i><i></i><i></i>
+              </div>
+
+              <div class="mini-content">
+                <div class="mini-top">
+                  <span>Good morning ✦</span>
+                  <span>•••</span>
+                </div>
+                <div class="mini-welcome">Make today<br><b>count.</b></div>
+                <div class="mini-task">
+                  <i></i><span>Plan your priorities</span><small>09:00</small>
+                </div>
+                <div class="mini-task">
+                  <i></i><span>Track your progress</span><small>11:30</small>
+                </div>
+                <div class="mini-progress"><span></span></div>
+              </div>
+            </div>
+            <span class="project-art-label">01 — PRODUCTIVITY</span>
+          </div>
+
+          <div class="project-details">
+            <div class="project-title-row">
+              <h3>PLAN</h3>
+              <span class="status-pill status-progress" data-i18n="statusProgress">In development</span>
+            </div>
+            <p data-i18n="planDesc">
+              A personal productivity app concept for organizing tasks, notes and goals in one focused workspace.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>Kivy</span><span>SQLite</span>
+            </div>
+            <span class="project-note" data-i18n="planNote">Currently building · Case study coming later</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art study-art">
+            <div class="study-orbit">✳</div>
+            <div class="study-label">STUDY / AI</div>
+            <div class="study-window">
+              <span>YOUR STUDY SPACE</span>
+              <b>Learn smarter.</b>
+              <i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-title-row">
+              <h3 data-i18n="studyTitle">AI Study Assistant</h3>
+              <span class="status-pill" data-i18n="statusPlanned">Planned</span>
+            </div>
+            <p data-i18n="studyDesc">
+              An idea for a study assistant that organizes learning sessions and educational resources.
+            </p>
+            <div class="project-tech"><span>Python</span><span>AI</span></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art store-art">
+            <div class="store-shape store-shape-one"></div>
+            <div class="store-shape store-shape-two"></div>
+            <div class="store-window">
+              <span>YOUR NEXT STORE</span>
+              <b>Simple.<br>Useful.</b>
+              <i>✦</i>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-title-row">
+              <h3 data-i18n="storeTitle">E-commerce Platform</h3>
+              <span class="status-pill" data-i18n="statusPlanned">Planned</span>
+            </div>
+            <p data-i18n="storeDesc">
+              A concept for a simple online store with product pages and a smooth shopping experience.
+            </p>
+            <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="journey">
+      <div class="section-heading reveal">
+        <p class="section-index">04 / <span data-i18n="journeyLabel">MY JOURNEY</span></p>
+        <h2 data-i18n="journeyTitle">Small steps.<br><span>Real progress.</span></h2>
+      </div>
+
+      <div class="journey-list">
+        <div class="journey-item reveal">
+          <span class="journey-number">01</span>
+          <div>
+            <h3 data-i18n="journey1Title">Python fundamentals</h3>
+            <p data-i18n="journey1Desc">Strengthening programming foundations and practicing with small projects.</p>
+          </div>
+          <span class="journey-status" data-i18n="journeyCurrent">Currently learning</span>
+        </div>
+
+        <div class="journey-item reveal">
+          <span class="journey-number">02</span>
+          <div>
+            <h3 data-i18n="journey2Title">Web development</h3>
+            <p data-i18n="journey2Desc">Learning HTML, CSS and JavaScript by building real interfaces.</p>
+          </div>
+          <span class="journey-status" data-i18n="journeyCurrent">Currently learning</span>
+        </div>
+
+        <div class="journey-item reveal">
+          <span class="journey-number">03</span>
+          <div>
+            <h3 data-i18n="journey3Title">Artificial intelligence</h3>
+            <p data-i18n="journey3Desc">Exploring AI concepts and learning to use modern tools thoughtfully.</p>
+          </div>
+          <span class="journey-status" data-i18n="journeyExploring">Exploring</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block contact-section" id="contact">
+      <div class="section-heading reveal">
+        <p class="section-index">05 / <span data-i18n="contactLabel">GET IN TOUCH</span></p>
+        <h2 data-i18n="contactTitle">Have an idea?<br><span>Let's connect.</span></h2>
+        <p class="section-intro" data-i18n="contactIntro">
+          I'm open to meaningful conversations, learning opportunities and creative collaborations.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a class="contact-item" href="mailto:fatemetalezari1389@gmail.com">
+            <span class="contact-icon">✉</span>
+            <span><small>EMAIL</small><b>fatemetalezari1389@gmail.com</b></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-item" href="https://www.instagram.com/call.me_janan_/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">◎</span>
+            <span><small>INSTAGRAM</small><b>@call.me_janan_</b></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-item" href="https://t.me/Janan_Tlz" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">➤</span>
+            <span><small>TELEGRAM</small><b>@Janan_Tlz</b></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-item" href="https://github.com/fatemetalezari1389-dotcom" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">⌘</span>
+            <span><small>GITHUB</small><b>fatemetalezari1389-dotcom</b></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <a class="contact-item" href="https://www.linkedin.com/in/janan-talezari-303ab33ab/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">in</span>
+            <span><small>LINKEDIN</small><b>janan-talezari</b></span>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <p class="privacy-note" data-i18n="privacyNote">
+            Your contact details are visible to everyone visiting this public website.
+          </p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/mvkakped" method="POST">
+          <div class="form-heading">
+            <h3 data-i18n="formTitle">Send a message</h3>
+            <p data-i18n="formIntro">Tell me a little about what's on your mind.</p>
+          </div>
+
+          <label for="name" data-i18n="formName">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email" data-i18n="formEmail">Email address</label>
+          <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+          <label for="subject" data-i18n="formSubject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What would you like to discuss?" required>
+
+          <label for="message" data-i18n="formMessage">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+          <button class="button button-primary form-submit" type="submit">
+            <span data-i18n="sendButton">Send message</span>
+            <span>↗</span>
+          </button>
+
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home">janan<span>.tlz</span></a>
+    <p data-i18n="footerText">Designed with curiosity. Built with code.</p>
+    <span>© <span id="year"></span> JANAN TALEZARI</span>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+  <script src="mobile-menu.js"></script>
+</body>
+</html>
